@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    username: test
-    password: test
+    username: ssafy
+    password: ssafy
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/testdb?serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/hackathon?serverTimezone=UTC&characterEncoding=UTF-8
 
   jpa:
     hibernate:
